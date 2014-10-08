@@ -1,0 +1,28 @@
+
+
+
+# requirement statements
+* note
+* to do without alert, importance and urgency degree.
+* to do with alert
+* list of to do today and non-specified.
+
+# use cases
+
+
+# design
+
+
+# implementation
+
+
+# test
+# debug
+  * archive support.
+    * list item with a button.
+  * alarm register after reboot.
+  * set list sort order
+  * set important/urgent values.
+# deploy
+# maintenance
+

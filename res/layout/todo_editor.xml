@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/containerView"
+            android:gravity="right">
+
+
+        <!--<Button android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/dateButton"-->
+                <!--android:text="Date"-->
+                <!--android:onClick="onShowDatePicker"/>-->
+
+        <!--<Button android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/timeButton"-->
+                <!--android:text="Time"-->
+                <!--android:onClick="onShowTimePicker"/>-->
+
+        <!--<Button android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/setAlarmButton"-->
+                <!--android:text="Set"-->
+                <!--android:onClick="onSetAlarm"/>-->
+        <!--<Button android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/unsetAlarmButton"-->
+                <!--android:text="Unset"-->
+                <!--android:onClick="onUnsetAlarm"/>-->
+
+    </LinearLayout>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New EditText"
+            android:id="@+id/titleView"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:gravity="top"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New EditText"
+            android:id="@+id/contentView"
+            android:layout_gravity="center"
+            android:gravity="top"/>
+</LinearLayout>
